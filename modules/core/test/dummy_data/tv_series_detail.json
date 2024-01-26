@@ -1,0 +1,47 @@
+{
+  "adult": false,
+  "backdrop_path": "/path.jpg",
+  "created_by": [],
+  "episode_run_time": [
+    24
+  ],
+  "first_air_date": "1999-10-20",
+  "genres": [
+    {
+      "id": 1,
+      "name": "Action"
+    }
+  ],
+  "homepage": "homepage",
+  "id": 1,
+  "in_production": true,
+  "languages": [
+    "ja"
+  ],
+  "last_air_date": "2023-12-10",
+  "name": "One Piece",
+  "networks": [
+    {
+      "id": 1,
+      "logo_path": "/path.png",
+      "name": "Fuji TV",
+      "origin_country": "JP"
+    }
+  ],
+  "number_of_episodes": 1090,
+  "number_of_seasons": 22,
+  "origin_country": [
+    "JP"
+  ],
+  "original_language": "ja",
+  "original_name": "one piece",
+  "overview": "overview",
+  "popularity": 1,
+  "poster_path": "/path.jpg",
+  "status": "Returning Series",
+  "tagline": "Set sail for One Piece!",
+  "type": "Scripted",
+  "vote_average": 1,
+  "vote_count": 1,
+  "seasons": []
+}
