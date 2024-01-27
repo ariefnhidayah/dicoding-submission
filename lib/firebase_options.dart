@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCEAabxLV7Bwvuc30pAy74rsoK10gEEu3Y',
-    appId: '1:724421211033:android:9c467ec10de9e62efe5908',
-    messagingSenderId: '724421211033',
-    projectId: 'dicoding-submission-424e1',
-    storageBucket: 'dicoding-submission-424e1.appspot.com',
+    apiKey: 'AIzaSyC6ZpTfAMmdJZnKg4Gowvwe8_T--YpIIIQ',
+    appId: '1:542507861059:android:4ac581c3c95cd800ae80f6',
+    messagingSenderId: '542507861059',
+    projectId: 'ditonton-7dd7c',
+    storageBucket: 'ditonton-7dd7c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCrb1S7frcCKVWxdPYi2zhGJ1Bydm3lVi8',
-    appId: '1:724421211033:ios:00049fd4f3e10597fe5908',
-    messagingSenderId: '724421211033',
-    projectId: 'dicoding-submission-424e1',
-    storageBucket: 'dicoding-submission-424e1.appspot.com',
+    apiKey: 'AIzaSyBXfFMTUUL7WDz0qXKrH6qG2bQeWyYqJts',
+    appId: '1:542507861059:ios:f96d5cc1782fc752ae80f6',
+    messagingSenderId: '542507861059',
+    projectId: 'ditonton-7dd7c',
+    storageBucket: 'ditonton-7dd7c.appspot.com',
     iosBundleId: 'com.dicoding.ditonton',
   );
 }
