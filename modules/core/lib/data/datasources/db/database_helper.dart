@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:core/data/models/movie_table.dart';
 import 'package:core/data/models/tv_series_table.dart';
+import 'package:core/utils/encrypt.dart';
 import 'package:sqflite_sqlcipher/sqflite.dart';
 
 class DatabaseHelper {
@@ -22,7 +23,6 @@ class DatabaseHelper {
   static const String _tblWatchlistTvSeries = 'watchlist_tv_series';
 
   Future<Database> _initDb() async {
-    print('initDB');
     final path = await getDatabasesPath();
     final databasePath = '$path/ditonton.db';
 
@@ -30,8 +30,8 @@ class DatabaseHelper {
       databasePath,
       version: 1,
       onCreate: _onCreate,
-      // password: encrypt('dbP4sssw0rds_-'),
-      password: 'dbP4sssw0rds_-'
+      password: encrypt('dbP4sssw0rds_-'),
+      // password: 'dbP4sssw0rds_-'
     );
     return db;
   }
